@@ -2,11 +2,13 @@
   "name": "my-project",
   "version": "1.0.0",
   "scripts": {
+    "start": "tsc && node ./src/index.ts",
     "build": "babel src -d lib"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/preset-env": "^7.18.6",
+    "@types/node": "^18.0.3",
     "ts-node": "^10.8.2"
   },
   "dependencies": {
